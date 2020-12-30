@@ -1,20 +1,21 @@
- import React,{Component} from 'react'
+ import React,{ Component } from 'react'
 
 // Importação dependência AXIOS
 import axios from 'axios'
 
 // Importação Stylesheet
-//import './Main.css'
+// import '../template/Main.css'
 
  //Importação Componentes
  import Header from '../template/Header'
+ import Main from '../template/Main'
 
 // Criação objeto 
 // Vamos passar as propriedades para o componente
  const headerProps = {
      icon: 'users',
      title: 'Usuários',
-     subtitle: 'Incluir, Listas, Alterar e Excluir'
+     subtitle: 'Cadastro de Usuários: Incluir, Listas, Alterar e Excluir'
  }
 
 // Estado Inicial
@@ -27,7 +28,7 @@ import axios from 'axios'
 //Componente de classe
 export default class UserCrud extends Component {
     
-     state = { ...initialState }
+     state = {...initialState }
 
      clear() {
          this.setState({ user: initialState.user})
@@ -110,12 +111,11 @@ export default class UserCrud extends Component {
      render(){
          return (
              <>
-             <Header {...headerProps}>
+             <Main {...headerProps}>
+                {this.renderForm()}
                                 
-                                 </Header>
-                                <div>
-                                     {this.renderForm()}
-                                 </div>
+            </Main>
+                                
              </>
 
          )
