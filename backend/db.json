@@ -1,12 +1,19 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Jordana Amorim",
-        "email": "jordana_amorim@hotmail.com"
+  "users": [
+    {
+      "id": 2,
+      "name": "Joane Alves",
+      "email": "joanealves2011@gmail.com"
     },
     {
-        "id": 2,
-        "name": "Joane Alves",
-        "email": "joanealves2011@gmail.com"
-    }]
+      "name": "Jordana Prates Amorim",
+      "email": "jordana_amorim@hotmail.com",
+      "id": 3
+    },
+    {
+      "name": "Lana Del Rey",
+      "email": "lana-delrey@hotmail.com",
+      "id": 4
+    }
+  ]
 }
