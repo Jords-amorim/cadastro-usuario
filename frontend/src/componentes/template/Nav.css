@@ -19,3 +19,22 @@ aside.menu-area {
 .menu a:hover {
     background: linear-gradient(135deg, #053242 0%, #c0aac4 100%);
 }
+
+/* ----------------- RESPONSIVIDADE ---------------*/
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-self: flex-start;
+        align-self: center;
+    }
+    .menu a {
+        display: inline;
+        padding: 10px;
+        margin: 0px;
+    }
+    .menu {
+        height: 100%;
+        justify-content: space-around;
+    }
+}
