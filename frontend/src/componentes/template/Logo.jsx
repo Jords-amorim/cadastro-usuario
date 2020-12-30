@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 // Importação Ilustração
 import logo from '../../assets/img/logo-png.png'
@@ -8,7 +9,7 @@ import './Logo.css'
 //Definição Componente Funcional
 export default props =>
     <aside className="logo">
-        <a href="/" className="logo">
+        <Link to="/" clLinkssName="logo">
             <img src={logo} alt="Ilustração logo"/>
-        </a>
+        </Link>
     </aside>

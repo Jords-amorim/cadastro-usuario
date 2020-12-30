@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 // Importação Stylesheet
 import './Nav.css'
@@ -8,8 +9,8 @@ export default props =>
     <aside className="menu-area">
         <nav className="menu">
             {/* Refatorar para navitems  */}
-            <a href="#/" className="fa fa-home" >  Início </a>
-            <a href="#/users" className="fa fa-users"> Usuários </a>
-            
+            <Link to="/" className="fa fa-home" >  Início </Link>
+            <Link to="/users" className="fa fa-users"> Usuários </Link>
+
         </nav>
     </aside>
