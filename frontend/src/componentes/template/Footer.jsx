@@ -6,5 +6,7 @@ import './Footer.css'
 // Definição Componente Funcional
 export default props =>
     <footer className="footer">
-        Rodapé
+        <p>
+            Desenvolvido por <strong> Jords Amorim</strong> <i className="fa fa-heart text danger" ></i>
+        </p>
     </footer>

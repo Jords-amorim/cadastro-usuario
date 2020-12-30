@@ -1,0 +1,13 @@
+/* Container logo */
+aside.logo {
+    background-color: var(--bg-rose);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagem logo */
+aside.logo img {
+    padding: 0px 15px;
+    width: 100%;
+}
